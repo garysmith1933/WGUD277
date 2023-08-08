@@ -3,18 +3,27 @@ body {
   font-family: "Helvetica", Arial, sans-serif;
 }
 
-h1 {
-  color: red
+.page-title {
+  color: red;
+  margin-top: 10rem;
+}
+
+.page-title, .page-body {
+  margin-left: 5rem;
 }
 
 .city-images {
-  width: 30%;
-  height: 500px;
+  width: 50%;
+  height: 700px;
   float:right;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-right: 10rem;
   border-radius: 5px;
 }
+
+ a {
+  text-decoration: none;
+ }
 
 nav {
   background-color: #333333;
