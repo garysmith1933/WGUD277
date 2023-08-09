@@ -62,10 +62,7 @@ ul {
 
 .activities-title {
   font-size: 1.7rem;
-}
-
-.activities-list {
-  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .activities {
@@ -82,4 +79,8 @@ ul {
 
 #logo:hover {
   color: lightblue;
+}
+
+#jerseycity-title {
+  color:goldenrod;
 }
