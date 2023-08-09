@@ -5,7 +5,9 @@ body {
 
 .page-title {
   color: red;
-  margin-top: 10rem;
+  margin-top: 15rem;
+  font-size: 2.5rem;
+  margin-bottom: 0;
 }
 
 .page-title, .page-body {
@@ -17,8 +19,9 @@ body {
   height: 700px;
   float:right;
   margin-top: 2rem;
-  margin-right: 10rem;
-  border-radius: 5px;
+  margin-right: 6rem;
+  border-radius: 10px;
+  padding-left: 2rem;
 }
 
  a {
@@ -29,7 +32,7 @@ nav {
   background-color: #333333;
   height: 75px;
   display:flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -42,12 +45,41 @@ ul {
   float: right;
 }
 
-li {
+.nav-item {
   margin: 1rem;
   font-size: 1.5rem;
   color:white;
 }
 
-li:hover {
+.nav-item:hover {
   color: lightslategrey;
+}
+
+.city-info {
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+.activities-title {
+  font-size: 1.7rem;
+}
+
+.activities-list {
+  margin-top: 10px;
+}
+
+.activities {
+  font-size: 1.5rem;
+}
+
+#logo {
+  color:white;
+  justify-self: flex-start;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+
+#logo:hover {
+  color: lightblue;
 }
