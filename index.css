@@ -76,11 +76,14 @@ ul {
   font-size: 2rem;
 }
 
-
 #logo:hover {
   color: lightblue;
 }
 
 #jerseycity-title {
   color:goldenrod;
+}
+
+#trenton-title {
+  color:navy;
 }
