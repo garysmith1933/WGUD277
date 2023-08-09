@@ -4,7 +4,6 @@ body {
 }
 
 .page-title {
-  color: red;
   margin-top: 15rem;
   font-size: 2.5rem;
   margin-bottom: 0;
@@ -51,10 +50,6 @@ ul {
   color:white;
 }
 
-.nav-item:hover {
-  color: lightslategrey;
-}
-
 .city-info {
   font-size: 1.7rem;
   margin-top: 10px;
@@ -80,10 +75,14 @@ ul {
   color: lightblue;
 }
 
-#jerseycity-title {
+#jerseycity-title, #jerseycity-link:hover {
   color:goldenrod;
 }
 
-#trenton-title {
-  color:navy;
+#atlanticcity-title, #atlanticcity-link:hover {
+  color:#bf1a2f;
+}
+
+#trenton-title, #trenton-link:hover {
+  color:#05668d;
 }
