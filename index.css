@@ -33,6 +33,10 @@ nav {
   display:flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width:100%;
+  top: 0;
+  z-index: 1;
 }
 
 ul {
@@ -85,4 +89,61 @@ ul {
 
 #trenton-title, #trenton-link:hover {
   color:#05668d;
+}
+
+#main-page-image {
+  width:100%;
+  height: 700px;
+}
+
+#welcome-section {
+  position: relative;
+}
+
+#welcome-text-box {
+  position: absolute;
+  color:white;
+  background-color: #333333;
+  width:35%;
+  height: 125px;
+  top: 8rem;
+}
+
+#welcome-text {
+  margin-left: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#welcome-paragraph {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#main-page-overview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#main-page-overview-title {
+  margin-top: 2rem;
+}
+
+#main-page-overview-text {
+  margin-top:0;
+  font-size:1.5rem;
+  width:50%
+}
+
+#city-compare-table {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem
+}
+
+th, td {
+  padding:1rem;
 }
