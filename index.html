@@ -28,6 +28,7 @@
     <h1 id="main-page-overview-title">Overview</h1>
     <p id="main-page-overview-text"> NJ Life provides info for 3 of the most popular cities in the state of New Jersey.
       Below you can see how the cities compare to each other in terms population, average income, and what theyre known for, or visit the links above for more details on each city.
+      For even more info, you can visit the offical New Jersey Website <a href="https://www.nj.gov" target="_blank">here</a>!
     </p>
 
     <aside>
@@ -60,10 +61,47 @@
     </aside>
   </section>
 
+    <header id="contact-header">
+      <h1>Contact Us</h1>
+      <p id="contact-text">If there is a city in New Jersey you would like to see us cover, or have feedback for how to make our site better, let us know! </p>
+    </header>
+    
+    <form id="contact-form">
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" placeholder="Enter your first name" required >
+      
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" placeholder="Enter your last name" required >
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required >
+      
+      <label for="confirm-email">Confirm Email</label>
+      <input type="email" id="confirm-email" placeholder="Confirm your email" required >
+      
+      <label for="question">Question</label>
+      <textarea id="question" placeholder="Enter your question" required ></textarea>
+      
+      <button type="submit" id="submit-button">Submit</button>
+    </form>
   
+  <script>
+    const email = document.getElementById('email');
+    const confirmEmail = document.getElementById('confirm-email');
+    const submitButton = document.getElementById('submit-button');
+    
+    function emailMatch(event) {
+      event.preventDefault();
+      if (email.value !== confirmEmail.value) {
+        alert("Emails do not match!");
+      }
 
-
-  <form></form>
-
+      else {
+        alert("Your message has been sent!..Not really.")
+      }
+    }
+    
+    submitButton.addEventListener('click', emailMatch);
+  </script>
 </body>
 </html>
